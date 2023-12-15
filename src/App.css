@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans";
+  }
+  
+  :root{
+    --DarkBlue: hsl(209, 23%, 22%);
+    --VeryDarkBlue: hsl(207, 26%, 17%);
+    --DarkBlue: hsl(200, 15%, 8%);
+    --DarkGray: hsl(0, 0%, 52%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+  }
+  
+  html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  button{
+    all: unset;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color:var(--VeryDarkBlue);
+    color: var(--White);
+    box-shadow: 0 0 15px var(--DarkBlue);
+    /* border: 1px solid var(--DarkBlue); */
+  }
+
+  .navbar h3{
+    font-size: 26px;
+  }
+
+  .navbar p{
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  body{
+    background-color: var(--VeryDarkBlue);
+  }
+
+  .home1{
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 35px;
+    color: #c9c9c9;
+  }
+
+  .home1 input{
+    padding: 10px 0 10px 10px;
+    width: 300px;
+    color: var(--White);
+    outline: none;
+    background-color: var(--VeryDarkBlue);
+    border: none;
+    box-shadow: 0 0 5px var(--DarkBlue);
+  }
+
+  ::placeholder{
+    font-size: 15px;
+  }
+
+  .homeBody{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    background-color: var(--VeryDarkBlue);
+  }
+
+  .body{
+    color: #f5e9e9;
+    box-shadow:  0 0 10px var(--DarkBlue);
+  }
+
+  .body-info{
+    padding: 1rem;
+  }
+
+  .body img{
+    width: 100%;
+    object-fit: cover;
+    height: 120px;
+  }
+
+  .drop-down{
+    position: fixed;
+    right: 35px;
+    top: 130px;
+    padding: 10px;
+    background-color: var(--VeryDarkBlue);
+    box-shadow: 0 0 10px var(--DarkBlue);
+    width: 170px;
+    display: grid;
+    gap: 5px;
+  }
+
+  .individual-country{
+    padding: 20px 50px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .eachcountryImg{
+    margin-top: 90px;
+  }
+  
+  .btn{
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--White);
+    margin-top: 35px;
+    box-shadow: 0 0 10px var(--DarkBlue);
+  }
